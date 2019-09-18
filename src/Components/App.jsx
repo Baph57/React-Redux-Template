@@ -13,19 +13,16 @@ function App() {
     <>
       <TopNavigation />
       <MDBRow>
-
-      <MDBCol size="3">
-        <SideNavigation />
-      </MDBCol>
-      <MDBCol size="9">
-      {/* <main id="content" className="p-5"> */}
-        <Routes />
-      {/* </main> */}
-      </MDBCol>
+        <MDBCol size="3">
+          <SideNavigation />
+        </MDBCol>
+        <MDBCol size="9">
+          <Routes />
+        </MDBCol>
       </MDBRow>
       <Footer />
     </>
-);
+  );
 }
 const mapStateToProps = state => ({
   // blabla: state.blabla,

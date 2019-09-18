@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const SideNavigation = () => {
     return (
-        <div className="sidebar-fixed position-fixed">
+        <div style={{marginTop: "20px", marginLeft: "10px"}} className="sidebar-fixed position-fixed">
             <a href="#!" className="logo-wrapper waves-effect">
                 <img alt="MDB React Logo" className="img-fluid" src={logo}/>
             </a>
