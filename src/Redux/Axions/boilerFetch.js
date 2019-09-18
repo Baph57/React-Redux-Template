@@ -10,5 +10,5 @@ export default () => dispatch =>
     fetch('url')
     .then(res => console.log(res))
     .then(res => res.json())
-    .then(weather => dispatch(boilerFetch(boiler)))
+    .then(boiler => dispatch(boilerFetch(boiler)))
     .catch(e => alert(e));
