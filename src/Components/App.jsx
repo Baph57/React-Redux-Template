@@ -5,18 +5,26 @@ import TopNavigation from './topNavigation';
 import SideNavigation from './sideNavigation';
 import Footer from './Footer';
 import '../CSS/App.css';
+import { MDBCol, MDBRow } from 'mdbreact';
 // import Main from './Routes/Main';
 
 function App() {
   return (
-    <div className="flexible-content">
+    <>
       <TopNavigation />
-      <SideNavigation />
-      <main id="content" className="p-5">
+      <MDBRow>
+
+      <MDBCol size="3">
+        <SideNavigation />
+      </MDBCol>
+      <MDBCol size="9">
+      {/* <main id="content" className="p-5"> */}
         <Routes />
-      </main>
+      {/* </main> */}
+      </MDBCol>
+      </MDBRow>
       <Footer />
-    </div>
+    </>
 );
 }
 const mapStateToProps = state => ({
