@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader, MDBRow } from 'mdbreact';
 import { Line, Doughnut, Radar } from 'react-chartjs-2';
 
-class ChartSection2 extends Component {
+class ChartShard1 extends Component {
     render(){
         const dataLine = {
             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -93,5 +93,5 @@ class ChartSection2 extends Component {
 
 }
 
-export default ChartSection2;
+export default ChartShard1;
 

@@ -9,7 +9,7 @@ import {
   MDBBtn
 } from "mdbreact";
 
-const BreadcrumSection = () => {
+const BreadcrumShard = () => {
   return (
     <MDBCard className="mb-5">
       <MDBCardBody
@@ -36,4 +36,4 @@ const BreadcrumSection = () => {
   );
 };
 
-export default BreadcrumSection;
+export default BreadcrumShard;

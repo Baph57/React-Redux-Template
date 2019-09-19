@@ -6,11 +6,11 @@ import {
   Switch
   // Redirect
 } from "react-router-dom";
-import DashboardPage from "./pages/DashboardPage.jsx";
-import ProfilePage from "./pages/ProfilePage.jsx";
-import TablesPage from "./pages/TablesPage.jsx";
-import MapsPage from "./pages/MapsPage.jsx";
-import NotFoundPage from "./pages/NotFoundPage.jsx";
+import DashboardPage from "./views/DashboardPage.jsx";
+import ProfilePage from "./views/ProfilePage.jsx";
+import TablesPage from "./views/TablesPage.jsx";
+import MapsPage from "./views/MapsPage.jsx";
+import NotFoundPage from "./views/NotFoundPage.jsx";
 import TopNavigation from "./topNavigation";
 import SideNavigation from "./sideNavigation";
 import Footer from "./Footer";
