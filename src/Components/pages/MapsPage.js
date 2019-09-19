@@ -1,6 +1,5 @@
 import React from 'react'
 import { MDBCol, MDBRow, MDBCard, MDBCardBody, MDBView } from 'mdbreact';
-import GoogleMapReact from 'google-map-react';
 
 const MapsPage =  () => {
   return (
@@ -14,10 +13,10 @@ const MapsPage =  () => {
                 </h4>
               </MDBView>
               <MDBCardBody style={{width: '100%', height: '300px'}} className="text-center">
-                <GoogleMapReact
+                {/* <GoogleMapReact
                   defaultCenter={{lat: 10, lng: 10}}
                   defaultZoom={7}
-                 />
+                 /> */}
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -29,13 +28,13 @@ const MapsPage =  () => {
                 </h4>
               </MDBView>
               <MDBCardBody style={{width: '100%', height: '300px'}} className="text-center">
-                <GoogleMapReact
+                {/* <GoogleMapReact
                     defaultCenter={{lat: 10, lng: 10}}
                     defaultZoom={7}
                     options = {{
                       mapTypeId: 'hybrid'
                     }}
-                  />
+                  /> */}
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -49,13 +48,13 @@ const MapsPage =  () => {
                 </h4>
               </MDBView>
               <MDBCardBody style={{width: '100%', height: '300px'}} className="text-center">
-                <GoogleMapReact
+                {/* <GoogleMapReact
                       defaultCenter={{lat: 10, lng: 10}}
                       defaultZoom={7}
                       options = {{
                         mapTypeId: 'satellite'
                       }}
-                    />
+                    /> */}
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -67,13 +66,13 @@ const MapsPage =  () => {
                 </h4>
               </MDBView>
               <MDBCardBody style={{width: '100%', height: '300px'}} className="text-center">
-                <GoogleMapReact
+                {/* <GoogleMapReact
                         defaultCenter={{lat: 10, lng: 10}}
                         defaultZoom={7}
                         options = {{
                           mapTypeId: 'terrain'
                         }}
-                      />
+                      /> */}
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
