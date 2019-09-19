@@ -75,14 +75,14 @@ const Footer = () => {
 {
   {
     /* <a className="nav-link navbar-link" href="https://www.twitch.tv/bapphire">
-    <MDBIcon fab icon="twitch" />
-</a>
-<a
-className="nav-link navbar-link"
-href="https://twitter.com/bapphire"
->
-<MDBIcon fab icon="twitter" />
-</a>  */
+			<MDBIcon fab icon="twitch" />
+			</a>
+			<a
+			className="nav-link navbar-link"
+			href="https://twitter.com/bapphire"
+			>
+			<MDBIcon fab icon="twitter" />
+			</a>  */
   }
 }
 export default Footer;
