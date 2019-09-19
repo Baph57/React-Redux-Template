@@ -56,9 +56,9 @@ class TopNavigation extends Component {
                 className="nav-link navbar-link"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Baph57"
+                href="https://www.twitch.tv/bapphire"
               >
-                <MDBIcon fab icon="facebook" />
+                <MDBIcon fab icon="twitch" />
               </a>
             </MDBNavItem>
             <MDBNavItem>
@@ -66,7 +66,7 @@ class TopNavigation extends Component {
                 className="nav-link navbar-link"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/Baph57"
+                href="https://twitter.com/bapphire"
               >
                 <MDBIcon fab icon="twitter" />
               </a>

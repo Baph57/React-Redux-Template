@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader, MDBRow, MDBListGroup, MDBListGroupItem, MDBBadge, MDBIcon } from 'mdbreact';
 import { Bar, Pie } from 'react-chartjs-2';
 
-class ChartSection1 extends Component {
+class ChartShard0 extends Component {
     render(){
         const dataBar = {
             labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
@@ -119,5 +119,5 @@ class ChartSection1 extends Component {
     }
 }
 
-export default ChartSection1;
+export default ChartShard0;
 

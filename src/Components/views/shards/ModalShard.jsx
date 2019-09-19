@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBRow, MDBCard, MDBCardBody, MDBCardHeader, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader} from 'mdbreact';
 
-class ModalSection extends Component {
+class ModalShard extends Component {
     state = {
         modal1: false,
         modal2: false,
@@ -184,4 +184,4 @@ class ModalSection extends Component {
     }
 }
 
-export default ModalSection;
+export default ModalShard;
