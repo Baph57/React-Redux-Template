@@ -1,10 +1,10 @@
 import React from "react";
 import {
   MDBFooter,
-  MDBBtn,
+  // MDBBtn,
   MDBIcon,
-  MDBNavItem,
-  MDBNavbar,
+  // MDBNavItem,
+  // MDBNavbar,
   MDBCol,
   MDBContainer,
   MDBRow
@@ -46,17 +46,17 @@ const Footer = () => {
               <li className="list-unstyled">
                 <a
                   className="nav-link navbar-link"
-                  href="https://www.twitch.tv/bapphire"
+                  href="https://github.com/Baph57"
                 >
-                  <MDBIcon fab icon="twitch" />
+                  <MDBIcon fab icon="github" />
                 </a>
               </li>
               <li className="list-unstyled">
                 <a
                   className="nav-link navbar-link"
-                  href="https://twitter.com/bapphire"
+                  href="https://www.twitch.tv/bapphire"
                 >
-                  <MDBIcon fab icon="twitter" />
+                  <MDBIcon fab icon="patreon" />
                 </a>
               </li>
             </ul>
@@ -66,14 +66,14 @@ const Footer = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+          <a href="https://github.com/Baph57"> Baph's GitHub </a>
         </MDBContainer>
       </div>
     </MDBFooter>
   );
 };
-{
-  {
+// {
+//   {
     /* <a className="nav-link navbar-link" href="https://www.twitch.tv/bapphire">
 			<MDBIcon fab icon="twitch" />
 			</a>
@@ -83,6 +83,6 @@ const Footer = () => {
 			>
 			<MDBIcon fab icon="twitter" />
 			</a>  */
-  }
-}
+//   }
+// }
 export default Footer;

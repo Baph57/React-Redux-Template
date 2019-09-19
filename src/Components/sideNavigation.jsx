@@ -10,7 +10,13 @@ const SideNavigation = () => {
                 <img alt="MDB React Logo" style={{height: "100px", width:"200px"}} className="img-fluid" src="https://www.walisongo.co.id/img/content/logo-bussan-auto-finance-baf-png.png"/>
             </a>
             <MDBListGroup className="list-group-flush">
-                <NavLink exact={true} to="/" activeClassName="activeClass">
+            <NavLink exact={true} to="/" activeClassName="activeClass">
+                    <MDBListGroupItem>
+                        <MDBIcon icon="home" className="mr-3"/>
+                        Home
+                    </MDBListGroupItem>
+                </NavLink>
+                <NavLink to="/dashboard" activeClassName="activeClass">
                     <MDBListGroupItem>
                         <MDBIcon icon="chart-pie" className="mr-3"/>
                         Dashboard

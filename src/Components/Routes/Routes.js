@@ -6,7 +6,7 @@ import {
   Switch, 
   // Redirect 
 } from 'react-router-dom'
-import DashboardPage from '../pages/DashboardPage';
+import DashboardPage from '../DashboardPage';
 import ProfilePage from '../pages/ProfilePage';
 import TablesPage from '../pages/TablesPage';
 import MapsPage from '../pages/MapsPage';
