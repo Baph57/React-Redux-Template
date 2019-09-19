@@ -1,33 +1,27 @@
 import React from 'react';
 import { connect } from 'react-redux';
-// import { 
-//   BrowserRouter as 
-//   Router, 
-//   Route, 
-//   Switch, 
-//   Redirect 
-// } from 'react-router-dom'
+import Routes from './Routes/Routes';
+import TopNavigation from './topNavigation';
+import SideNavigation from './sideNavigation';
+import Footer from './Footer';
 import '../CSS/App.css';
-import Main from './Main/Main';
+import { MDBCol, MDBRow } from 'mdbreact';
+// import Main from './Routes/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Main/>
-      </header>
-    </div>
+    <>
+      <TopNavigation />
+      <MDBRow>
+        <MDBCol size="3">
+          <SideNavigation />
+        </MDBCol>
+        <MDBCol size="9">
+          <Routes />
+        </MDBCol>
+      </MDBRow>
+      <Footer />
+    </>
   );
 }
 const mapStateToProps = state => ({
