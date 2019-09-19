@@ -16,7 +16,7 @@ import SideNavigation from "./sideNavigation";
 import Footer from "./Footer";
 import "../CSS/App.css";
 import { MDBCol, MDBRow } from "mdbreact";
-import Landing from "./Landing.jsx";
+import Landing from "./views/Landing.jsx";
 
 function App() {
   return (
