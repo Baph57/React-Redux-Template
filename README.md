@@ -6,3 +6,4 @@ I created this project/app with the intent of having a 'bootstrapped' and ready 
 specific modules and the file structure I prefer. Any work done here should only help me personally bootstrap 
 other applications quicker, and is not meant to be constantly improved/iterated upon unless there is a reason
 to do so. 
+# Seen
